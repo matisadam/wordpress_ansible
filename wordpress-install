@@ -1,0 +1,6 @@
+#!/bin/bash
+./ansible-install
+cd
+git clone https://github.com/antalhorvath81/wordpress-ansible.git
+cd ~/wordpress-ansible
+sudo ansible-playbook playbook.yml -i hosts -e mysql_root_password=#password#

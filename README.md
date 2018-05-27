@@ -1,1 +1,1 @@
-# wordpress_ansible
+# wordpress
